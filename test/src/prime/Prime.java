@@ -23,7 +23,6 @@ public class Prime {
 				System.out.print(i + " ");
 			}
 		}
-		System.out.println("*****Java8*****");
 		final IntPredicate isPrime = n -> {
 			for (int i = 2; i < n; i++) {
 				if (n % i == 0) {
