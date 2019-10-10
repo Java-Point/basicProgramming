@@ -4,6 +4,7 @@ public class Max3 {
 
 	public static void main(String[] args) {
 		int[] x = { 123, 231, 242, 2342, 4234, 2342 };
+		Arrays.sort(x);
 		int x1 = x[0], x2 = x[0], x3 = x[0];
 		for (int i = 1; i < x.length; i++) {
 			if (x[i] > x1) {
