@@ -11,12 +11,5 @@ public class Converter {
 			ch[i] = name.charAt(i);
 			System.out.println(ch[i]);
 		}
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a name to reverse");
-		String name1 = sc.next();
-		StringBuilder sb = new StringBuilder();
-		sb = sb.append(name);
-		sb = sb.reverse();
-		System.out.println("The reversed name will be: " + sb);
 	}
 }
