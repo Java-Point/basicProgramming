@@ -1,0 +1,20 @@
+
+package max;
+
+public class MaxUsingScanner {
+	public static void main(String[] args) {
+	int max;
+	Scanner sc = new Scanner(System.in);
+	int[] x = new int[5];	
+	for(int i=0;i<x.length;i++) {
+		system.out.println("Enter the values: ")
+		x[i]=sc.nextInt();
+		}
+		for (int j = 0; j < x.length; j++) {
+			if (x[j] > max) {
+				max = x[j];
+			}
+		}
+		System.out.println("Max is: " + max);
+	}
+}
