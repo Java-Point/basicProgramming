@@ -12,6 +12,10 @@ public class Converter {
 			System.out.println(ch[i]);
 		}
 		System.out.println("OR");
+		for (int i = 0; i < x.length(); i++) {
+			System.out.println(x.charAt(i));
+		}
+		System.out.println("OR");
 		ArrayList<String> arr = new ArrayList<String>();
 		arr.add("w");
 		arr.add("w");
